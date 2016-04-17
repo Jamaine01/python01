@@ -1,5 +1,4 @@
 largest = None
-smallest = None
 while True:
 	user = (raw_input("Enter Number, (enter 'done' to exit):"))
 	if user == "done":
@@ -12,10 +11,9 @@ while True:
 	user = int(user)
 	if largest == None:
 		largest = user
-	elif user < largest:
-		user = smallest
 	elif user > largest:
 		largest = user
 	continue
-print "Done! Maximum is " , largest
+print "Done!"
+print "Maximum is " , largest
 #without user = int(user) on line 12, accepts as string, makes 67 > 600
