@@ -16,4 +16,4 @@ while True:
 	continue
 print "Done!"
 print "Maximum is " , largest
-#without user = int(user) on line 12, accepts as string, makes 67 > 600
+#without user = int(user) on line 11, accepts as string, makes 67 > 600
