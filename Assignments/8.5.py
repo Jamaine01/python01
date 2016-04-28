@@ -1,3 +1,5 @@
+from collections import Counter
+
 fname = raw_input('Enter file name:')
 fh = open(fname)
 count = 0
