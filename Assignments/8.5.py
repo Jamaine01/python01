@@ -6,6 +6,7 @@ count = 0
 name_count = []
 
 for line in fh:
+	line = line.rstrip()
 	if line.startswith('From'):
 		names = line.split()
 		print names[1]
